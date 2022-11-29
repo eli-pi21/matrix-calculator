@@ -1,0 +1,6 @@
+--module-path
+"C:\Users\User\Hexagon Storage\javafx-sdk-11.0.2\lib"
+--add-modules
+javafx.controls,javafx.fxml
+--add-exports
+javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED

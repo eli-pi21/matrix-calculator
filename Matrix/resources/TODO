@@ -1,0 +1,39 @@
+TODO
+
+check not null Fraction methods
+
+dialog close window?
+
+inserire possibilità matrici bianche
+
+scambiare matrici?
+
+metodi vari per semplificare codice
+aggiungere commenti inglese javadoc
+aggiungere final se serve
+
+BigInteger for fractions?
+
+IMPORTANTE: CONTROLLA FORMATTAZIONE UGUALE SU TUTTI I PC
+
+---------------------------
+
+COSE DA SISTEMARE
+
+espressione corretta?
+
+textfield espressione se incolli qualcosa non valido?
+
+immagine bella di About
+
+inserire immagine di fianco a X?
+
+alert eccezioni numeri troppo lunghi inseriti/input non validi a posto che rimpiazzo con 0 ?
+
+miglioramenti textfields: spostarsi con frecette
+miglioramenti pulsanti: tenere premuto?
+
+impostare icona stage più carina (creare?)
+
+w: 900-40-160-40=900-240
+h: 600-20-30-40=600-90

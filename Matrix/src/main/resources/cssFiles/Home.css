@@ -1,0 +1,171 @@
+.background {
+    -fx-background-color: #9acd7e;
+}
+
+.pane {
+    -fx-background-color: white;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+    -fx-border-width: none;
+    //-fx-border-color: #1a0000;
+}
+
+.buttonPane {
+    -fx-background-color: #3e6732;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+    -fx-border-width: 0;
+}
+
+.label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Abadi";
+    -fx-text-fill: white;
+    -fx-text-align: center;
+}
+
+//MENU BAR
+
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing {
+    -fx-background-color: #9acd7e;
+}
+
+.menu-bar > .container > .menu-button:hover > .label,
+.menu-bar > .container > .menu-button:focused > .label,
+.menu-bar > .container > .menu-button:showing > .label {
+     -fx-text-fill: black;
+}
+
+.menu-item {
+    -fx-background-color: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.menu-item:focused, .menu-item:hovered  {
+     -fx-background-color: #75b464;
+}
+
+.context-menu {
+    -fx-background-color: #284323;
+}
+
+.titleLabel {
+    -fx-background-color: #335729;
+    -fx-font-size: 15pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+    -fx-text-align: center;
+    -fx-font-weight: bold;
+}
+
+.alertLabel {
+    -fx-font-size: 12px;
+    -fx-font-family: "Abadi";
+    -fx-text-fill: #142211;
+    -fx-text-align: center;
+    -fx-font-style: italic;
+    -fx-background-color: #9acd7e;
+}
+
+.button:hover {
+   -fx-background-color: #75b464;
+}
+
+.button:pressed, .button:default:hover:pressed {
+   -fx-background-color: #1f3419;
+}
+
+button:active {
+   -fx-background-color:white;
+}
+
+.button:disabled {
+  -fx-background-color: #8c8c8c;
+  -fx-text-fill: #cccccc;
+}
+
+.after-button {
+  -fx-display: inline-block;
+  -fx-border-radius: none;
+  -fx-background-radius: none;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: #3e6732;
+
+  -fx-background-color: #9acd7e, white;
+  //-fx-background-color: white, #9acd7e;
+  -fx-background-insets: 0, 0 0 0 5;
+}
+
+.button {
+  -fx-display: inline-block;
+  -fx-border-radius: none;
+  -fx-background-radius: none;
+  -fx-background-color: #3e6732;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-width: 80px;
+  -fx-height: 30px;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: white;
+}
+
+.menuButton:hover {
+   -fx-background-color: #75b464;
+}
+
+.menuButton:pressed, .button:default:hover:pressed {
+   -fx-background-color: #1f3419;
+}
+
+.menuButton:active {
+   -fx-background-color:white;
+}
+
+//SCROLLPANE RESULT
+
+.scroll-pane {
+    -fx-background-color: white;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: white;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #9acd7e;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: white;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.stackPane {
+    -fx-background-color: white;
+}

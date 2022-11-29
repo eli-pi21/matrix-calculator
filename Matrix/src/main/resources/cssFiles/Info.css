@@ -1,0 +1,73 @@
+.infoPane {
+     -fx-background-color: white;
+     -fx-background-radius: 4px;
+     -fx-border-radius: 4px;
+     -fx-border-width: none;
+     //-fx-border-color: #1a0000;
+}
+
+.label {
+     -fx-font-family: "Century Gothic";
+     -fx-text-fill: white;
+     -fx-text-align: center;
+     -fx-background-color: #5a9648;
+     -fx-font-size: 20pt;
+}
+
+.labelCommands {
+     -fx-font-family: "Abadi";
+     -fx-text-fill: black;
+     -fx-text-align: center;
+     -fx-background-color: none;
+     -fx-font-size: 12pt;
+}
+
+.background {
+    -fx-background-color: #9acd7e;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.backgroundBase {
+    -fx-background-color: #284323;
+}
+
+.pane {
+    -fx-background-color: #5a9648;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+    -fx-border-width: none;
+    //-fx-border-color: #1a0000;
+}
+
+.labelAbout {
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #284323;
+    -fx-text-align: center;
+    -fx-background-color: none;
+    -fx-font-size: 16pt;
+}
+
+.labelTitle {
+     -fx-font-family: "Century Gothic";
+     -fx-text-fill: #284323;
+     -fx-text-align: center;
+     -fx-background-color: none;
+     -fx-font-size: 24pt;
+     -fx-font-weight: bold;
+}
+
+.button {
+     -fx-background-color: none;
+     -fx-text-fill: #284323;
+     -fx-font-family: "Abadi";
+     -fx-font-size: 14pt;
+}
+
+.button:hover {
+     -fx-text-fill: white;
+}
+
+.button:pressed {
+     -fx-text-fill: #284323;
+}

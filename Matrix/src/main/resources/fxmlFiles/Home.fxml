@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" styleClass="background" stylesheets="@../cssFiles/Home.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="matrixCalculator.HomeController">
+    <center>
+        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="553.0" prefWidth="711.0" BorderPane.alignment="CENTER">
+            <children>
+                <BorderPane fx:id="borderPane" layoutX="200.0" layoutY="142.0" prefHeight="566.4" prefWidth="721.6" styleClass="pane" stylesheets="@../cssFiles/Home.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <padding>
+                <Insets right="40.0" />
+            </padding>
+        </AnchorPane>
+    </center>
+    <left>
+        <AnchorPane BorderPane.alignment="CENTER">
+            <children>
+                <VBox fx:id="vBox" prefHeight="600.0" prefWidth="158.4" styleClass="buttonPane" stylesheets="@../cssFiles/Home.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Label prefHeight="107.0" prefWidth="158.0" styleClass="titleLabel" stylesheets="@../cssFiles/Home.css" text="MATRIX CALCULATOR" textAlignment="CENTER" wrapText="true" />
+                        <Button fx:id="multiply" alignment="CENTER" maxHeight="50.0" minHeight="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="158.0" text="Multiply" textAlignment="CENTER">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="subAdd" alignment="CENTER" maxHeight="50.0" minHeight="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="158.0" text="Add - Sub" textAlignment="CENTER">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="determinant" alignment="CENTER" maxHeight="50.0" minHeight="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" text="Determinant" textAlignment="CENTER">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="inverseMatrix" alignment="CENTER" minHeight="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" text="Inverse Matrix">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="rowEchelonForm" alignment="CENTER" minHeight="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" text="Rank">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="expression" alignment="CENTER" minHeight="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" text="Expression">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </left>
+    <top>
+        <MenuBar fx:id="menuBar" prefHeight="22.0" prefWidth="900.0" styleClass="context-menu" stylesheets="@../cssFiles/Home.css" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu fx:id="help" mnemonicParsing="false" styleClass="menuButton" text="Help">
+                    <items>
+                        <MenuItem fx:id="commands" mnemonicParsing="false" styleClass="menuButton" text="Commands" />
+                        <MenuItem fx:id="about" mnemonicParsing="false" styleClass="menuButton" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

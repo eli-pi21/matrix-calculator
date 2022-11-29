@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="backgroundBase" stylesheets="@../cssFiles/Info.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="matrixCalculator.controllers.AboutController">
+   <center>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="612.0" styleClass="pane" stylesheets="@../cssFiles/Info.css">
+         <center>
+            <BorderPane prefHeight="195.0" prefWidth="572.0" styleClass="pane" stylesheets="@../cssFiles/Info.css" BorderPane.alignment="CENTER">
+               <center>
+                  <VBox prefHeight="178.0" prefWidth="512.0" styleClass="background" stylesheets="@../cssFiles/Info.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="78.0" prefWidth="540.0" styleClass="labelTitle" stylesheets="@../cssFiles/Info.css" text="Matrix Calculator" />
+                        <Label alignment="CENTER" prefHeight="60.0" prefWidth="540.0" styleClass="labelAbout" stylesheets="@../cssFiles/Info.css" text="Product Version: Matrix Calculator 2.2.1" wrapText="true" />
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="594.0" styleClass="labelAbout" stylesheets="@../cssFiles/Info.css" text="Java version: 11" />
+                     </children>
+                  </VBox>
+               </center>
+               <padding>
+                  <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+               </padding>
+            </BorderPane>
+         </center>
+         <padding>
+            <Insets bottom="30.0" left="20.0" right="20.0" top="50.0" />
+         </padding>
+         <bottom>
+            <Button fx:id="close" mnemonicParsing="false" prefHeight="26.0" prefWidth="71.0" text="Close" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </center>
+   <padding>
+      <Insets bottom="30.0" top="30.0" />
+   </padding>
+</BorderPane>

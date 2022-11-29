@@ -1,0 +1,49 @@
+.background {
+    -fx-background-color: #9acd7e;
+}
+
+.pane {
+    -fx-background-color: white;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+    -fx-border-width: none;
+    //-fx-border-color: #1a0000;
+}
+
+.label {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Abadi";
+    -fx-text-fill: #284323;
+    -fx-text-align: center;
+}
+
+.button {
+  -fx-display: inline-block;
+  -fx-border-radius: 4px;
+  -fx-background-radius: 4px;
+  -fx-background-color: #3e6732;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-width: 80px;
+  -fx-height: 30px;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: white;
+}
+
+.button:hover {
+   -fx-background-color: #75b464;
+}
+
+.button:pressed, .button:default:hover:pressed {
+   -fx-background-color: #1f3419;
+}
+
+button:active {
+   -fx-background-color:white;
+}
+
+.button:disabled {
+  -fx-background-color: #8c8c8c;
+  -fx-text-fill: #cccccc;
+}

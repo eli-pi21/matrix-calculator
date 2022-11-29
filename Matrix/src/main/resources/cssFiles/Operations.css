@@ -1,0 +1,110 @@
+.background {
+    -fx-background-color: #9acd7e;
+}
+
+.pane {
+    -fx-background-color: white;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+    -fx-border-width: none;
+    //-fx-border-color: #1a0000;
+}
+
+.buttonPane {
+    -fx-background-color: #3e6732;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+    -fx-border-width: 0;
+}
+
+.label {
+    -fx-font-size: 22pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #375c24;
+    -fx-text-align: center;
+}
+
+.rowColumn {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #375c24;
+    -fx-text-align: center;
+}
+
+.titleLabel {
+    -fx-background-color: #335729;
+    -fx-font-size: 15pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+    -fx-text-align: center;
+}
+
+.button {
+  -fx-display: inline-block;
+  -fx-border-radius: 4px;
+  -fx-background-radius: 4px;
+  -fx-background-color: #3e6732;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-width: 80px;
+  -fx-height: 30px;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+}
+
+.button:hover {
+   -fx-background-color: #75b464;
+}
+
+.button:pressed, .button:default:hover:pressed {
+   -fx-background-color: #1f3419;
+}
+
+button:active {
+   -fx-background-color:white;
+}
+
+.button:disabled {
+  -fx-background-color: #8c8c8c;
+  -fx-text-fill: #cccccc;
+}
+
+.buttonPressed {
+  -fx-display: inline-block;
+  -fx-border-radius: none;
+  -fx-background-radius: none;
+  -fx-background-color: white;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: #3e6732;
+}
+
+.copy-clipboard{
+   -fx-display: inline-block;
+   -fx-border-radius: none;
+   -fx-background-radius: none;
+   -fx-background-color: white;
+   -fx-color: #FFFFFF;
+   -fx-text-align: center;
+   -fx-width: 80px;
+   -fx-height: 30px;
+   -fx-font-size: 13px;
+   -fx-font-family: "Abadi";
+   -fx-text-fill: #3e6732;
+   -fx-font-style: italic;
+   -fx-font-weight: none;
+}
+
+.copy-clipboard:hover {
+   -fx-background-color: white;
+   -fx-text-fill: #75b464;
+}
+
+.copy-clipboard:pressed, .copy-clipboard:default:hover:pressed {
+   -fx-background-color: white;
+   -fx-text-fill: #1f3419;
+}
