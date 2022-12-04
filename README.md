@@ -1,6 +1,7 @@
 # Matrix Calculator
 
 This is a simple JavaFX application to compute operations on matrices.
+
 ![home](./images/matrix-pic-1.png)
 
 ## Features
